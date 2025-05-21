@@ -12,4 +12,5 @@ apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Continue com a instalação de dependências Python
+pip install --upgrade pip
 pip install -r requirements.txt
